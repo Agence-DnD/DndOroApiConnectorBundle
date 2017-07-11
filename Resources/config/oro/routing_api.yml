@@ -1,0 +1,3 @@
+dnd_oro_api_api:
+    resource: "@DndOroApiConnectorBundle/Controller/Api/Rest/DndOroApiConnectorController.php"
+    type: rest

@@ -1,0 +1,37 @@
+{
+  "name": "agencednd/oro-api-connector-bundle",
+  "type": "symfony-bundle",
+  "description": "Dn'D Oro Api Connector Bundle to extend OroCommerce API",
+  "keywords": [
+    "OroCommerce",
+    "dnd",
+    "ecommerce",
+    "e-commerce",
+    "Alexa",
+    "Amazon Echo",
+    "connector",
+    "api",
+    "rest",
+    "Oro"
+  ],
+  "homepage": "http://dnd.fr",
+  "license": "OSL-3.0",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Agence Dn'D",
+      "email": "contact@dnd.fr",
+      "homepage": "http://www.dnd.fr/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dnd\\Bundle\\DndOroApiConnectorBundle\\": ""
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "oro/commerce": "~1.0"
+  },
+  "minimum-stability": "stable"
+}

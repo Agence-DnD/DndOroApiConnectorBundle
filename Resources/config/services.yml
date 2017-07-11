@@ -1,0 +1,3 @@
+services:
+    dnd_oro_api.alexa:
+        class: Dnd\Bundle\DndOroApiConnectorBundle\Services\DndOroApiAlexa

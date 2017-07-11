@@ -1,0 +1,8 @@
+dnd_oro_api_bundle_api:
+    resource:     "@DndOroApiConnectorBundle/Controller/Api/Rest/DndOroApiConnectorController.php"
+    type:         rest
+    prefix:       api/rest/{version}
+    requirements:
+        version:  latest|v1
+    defaults:
+        version: latest

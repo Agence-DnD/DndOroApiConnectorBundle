@@ -1,0 +1,4 @@
+services:
+    dnd_oro_api.repository:
+        class: Dnd\Bundle\DndOroApiConnectorBundle\Entity\Repository\DndOroApiRepository
+        arguments: ["@doctrine.orm.entity_manager"]

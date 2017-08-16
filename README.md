@@ -38,7 +38,7 @@ of the Composer documentation.
 Step 2: Enable the Bundle
 -------------------------
 
-The bundle is automatically enable.
+The bundle is automatically enabled.
 
 
 Step 3: ReGenerate the API doc
@@ -60,7 +60,7 @@ To access of this script, you need to copy the files from vendor/ to web/ with t
 cp -R vendor/agencednd/alexa-connector-bundle/Resources/public/scripts/ web/scripts
 ```
 
-In web/scripts/generat-wsse-header.php, you have to put your API key : oroUrl/admin/user/profile/view generate key
+In web/scripts/generate-wsse-header.php, you have to put your API key : oroUrl/admin/user/profile/view generate key
 
 Step 5: Protect the generate-wsse-header.php script
 ---------------------------------------------------
@@ -69,7 +69,7 @@ Step 5: Protect the generate-wsse-header.php script
 
 
 ```apache
-#genenerate your user and passwd
+# generate your user and password
 'user:passwd'
 ```
 - Modify the .htaccess with the good path to .htpasswd
